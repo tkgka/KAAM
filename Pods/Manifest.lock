@@ -1,0 +1,16 @@
+PODS:
+  - ArrayFlags (1.0.4)
+
+DEPENDENCIES:
+  - ArrayFlags
+
+SPEC REPOS:
+  trunk:
+    - ArrayFlags
+
+SPEC CHECKSUMS:
+  ArrayFlags: 1f034078764945e1c67d976d1837148ab4bcf145
+
+PODFILE CHECKSUM: ace6397822eb40331b40ed0dbf5d8d20ef684843
+
+COCOAPODS: 1.11.3

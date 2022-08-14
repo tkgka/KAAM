@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280797FAFFDDE5CE0F953F8B /* Pods_KAAMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776A376213B29D789EF123CD /* Pods_KAAMTests.framework */; };
+		3BEA59E53E565937B32F5D1B /* Pods_KAAM_KAAMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0D1C17898A93ADCE59A017 /* Pods_KAAM_KAAMUITests.framework */; };
+		C8D9437D6472FFDEDE648702 /* Pods_KAAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56CEF9BB60C9D83EF29352 /* Pods_KAAM.framework */; };
 		F90B2CB528A8F8AE007C0295 /* KAAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */; };
 		F90B2CB728A8F8AE007C0295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CB628A8F8AE007C0295 /* ContentView.swift */; };
 		F90B2CB928A8F8B1007C0295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90B2CB828A8F8B1007C0295 /* Assets.xcassets */; };
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02175E98C2DB339653BCF14F /* Pods-KAAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAM.debug.xcconfig"; path = "Target Support Files/Pods-KAAM/Pods-KAAM.debug.xcconfig"; sourceTree = "<group>"; };
+		0A0D1C17898A93ADCE59A017 /* Pods_KAAM_KAAMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAAM_KAAMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D2FE35AFA3B4B9C67C6A89 /* Pods-KAAMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAMTests.release.xcconfig"; path = "Target Support Files/Pods-KAAMTests/Pods-KAAMTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E56CEF9BB60C9D83EF29352 /* Pods_KAAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776A376213B29D789EF123CD /* Pods_KAAMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAAMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13C40966EB149E73103CCA0 /* Pods-KAAM-KAAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAM-KAAMUITests.debug.xcconfig"; path = "Target Support Files/Pods-KAAM-KAAMUITests/Pods-KAAM-KAAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C66223A714F0931FC52F8F26 /* Pods-KAAMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAMTests.debug.xcconfig"; path = "Target Support Files/Pods-KAAMTests/Pods-KAAMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D791D0D171B5C6E8C86B5738 /* Pods-KAAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAM.release.xcconfig"; path = "Target Support Files/Pods-KAAM/Pods-KAAM.release.xcconfig"; sourceTree = "<group>"; };
 		F90B2CB128A8F8AE007C0295 /* KAAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMApp.swift; sourceTree = "<group>"; };
 		F90B2CB628A8F8AE007C0295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGEventExtension.swift; sourceTree = "<group>"; };
 		F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputController.swift; sourceTree = "<group>"; };
+		FCC4FA1D50527D52ED208EF3 /* Pods-KAAM-KAAMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAM-KAAMUITests.release.xcconfig"; path = "Target Support Files/Pods-KAAM-KAAMUITests/Pods-KAAM-KAAMUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D9437D6472FFDEDE648702 /* Pods_KAAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280797FAFFDDE5CE0F953F8B /* Pods_KAAMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEA59E53E565937B32F5D1B /* Pods_KAAM_KAAMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		916051A0558B682B4B24D443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E56CEF9BB60C9D83EF29352 /* Pods_KAAM.framework */,
+				0A0D1C17898A93ADCE59A017 /* Pods_KAAM_KAAMUITests.framework */,
+				776A376213B29D789EF123CD /* Pods_KAAMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E66BA16705BE731E58A1F23E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02175E98C2DB339653BCF14F /* Pods-KAAM.debug.xcconfig */,
+				D791D0D171B5C6E8C86B5738 /* Pods-KAAM.release.xcconfig */,
+				C13C40966EB149E73103CCA0 /* Pods-KAAM-KAAMUITests.debug.xcconfig */,
+				FCC4FA1D50527D52ED208EF3 /* Pods-KAAM-KAAMUITests.release.xcconfig */,
+				C66223A714F0931FC52F8F26 /* Pods-KAAMTests.debug.xcconfig */,
+				26D2FE35AFA3B4B9C67C6A89 /* Pods-KAAMTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F90B2CA828A8F8AE007C0295 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				F90B2CC528A8F8B1007C0295 /* KAAMTests */,
 				F90B2CCF28A8F8B1007C0295 /* KAAMUITests */,
 				F90B2CB228A8F8AE007C0295 /* Products */,
+				E66BA16705BE731E58A1F23E /* Pods */,
+				916051A0558B682B4B24D443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F90B2CD628A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAM" */;
 			buildPhases = (
+				30D4DE3939C6A8CE5224EC76 /* [CP] Check Pods Manifest.lock */,
 				F90B2CAD28A8F8AE007C0295 /* Sources */,
 				F90B2CAE28A8F8AE007C0295 /* Frameworks */,
 				F90B2CAF28A8F8AE007C0295 /* Resources */,
+				2002487D69BFE88EA3C4DDEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F90B2CD928A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAMTests" */;
 			buildPhases = (
+				A6E67503B83CC6EB4E8F7B92 /* [CP] Check Pods Manifest.lock */,
 				F90B2CBE28A8F8B1007C0295 /* Sources */,
 				F90B2CBF28A8F8B1007C0295 /* Frameworks */,
 				F90B2CC028A8F8B1007C0295 /* Resources */,
@@ -177,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F90B2CDC28A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAMUITests" */;
 			buildPhases = (
+				0C818F9C6BF1ABC3513ABE00 /* [CP] Check Pods Manifest.lock */,
 				F90B2CC828A8F8B1007C0295 /* Sources */,
 				F90B2CC928A8F8B1007C0295 /* Frameworks */,
 				F90B2CCA28A8F8B1007C0295 /* Resources */,
+				69CD95FFA0FEB66A2DF86AF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C818F9C6BF1ABC3513ABE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAAM-KAAMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2002487D69BFE88EA3C4DDEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAAM/Pods-KAAM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAAM/Pods-KAAM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KAAM/Pods-KAAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D4DE3939C6A8CE5224EC76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CD95FFA0FEB66A2DF86AF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAAM-KAAMUITests/Pods-KAAM-KAAMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAAM-KAAMUITests/Pods-KAAM-KAAMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KAAM-KAAMUITests/Pods-KAAM-KAAMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E67503B83CC6EB4E8F7B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAAMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F90B2CAD28A8F8AE007C0295 /* Sources */ = {
@@ -420,6 +569,7 @@
 		};
 		F90B2CD728A8F8B1007C0295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02175E98C2DB339653BCF14F /* Pods-KAAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +597,7 @@
 		};
 		F90B2CD828A8F8B1007C0295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D791D0D171B5C6E8C86B5738 /* Pods-KAAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +625,7 @@
 		};
 		F90B2CDA28A8F8B1007C0295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66223A714F0931FC52F8F26 /* Pods-KAAMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		F90B2CDB28A8F8B1007C0295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D2FE35AFA3B4B9C67C6A89 /* Pods-KAAMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		F90B2CDD28A8F8B1007C0295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13C40966EB149E73103CCA0 /* Pods-KAAM-KAAMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +683,7 @@
 		};
 		F90B2CDE28A8F8B1007C0295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC4FA1D50527D52ED208EF3 /* Pods-KAAM-KAAMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

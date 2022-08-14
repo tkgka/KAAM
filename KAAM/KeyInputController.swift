@@ -1,5 +1,6 @@
 import Cocoa
 import SwiftUI
+import ArrayFlags
 
 class Wrapper {
     var state: State?
@@ -18,7 +19,9 @@ class Wrapper {
 }
 
 func handle(event: NSEvent, cgEvent: CGEvent, wrapper: Wrapper, proxy: CGEventTapProxy) -> CGEvent? {
-    print(event)
+    if(event.type == .keyDown){
+        print(GetArrayFlags(Val: event.modifierFlags.rawValue))
+    }
     return cgEvent
 }
 
