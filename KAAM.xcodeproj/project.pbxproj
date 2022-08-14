@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90B2CB528A8F8AE007C0295 /* KAAMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */; };
+		F90B2CB728A8F8AE007C0295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CB628A8F8AE007C0295 /* ContentView.swift */; };
+		F90B2CB928A8F8B1007C0295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90B2CB828A8F8B1007C0295 /* Assets.xcassets */; };
+		F90B2CBC28A8F8B1007C0295 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90B2CBB28A8F8B1007C0295 /* Preview Assets.xcassets */; };
+		F90B2CC728A8F8B1007C0295 /* KAAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CC628A8F8B1007C0295 /* KAAMTests.swift */; };
+		F90B2CD128A8F8B1007C0295 /* KAAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CD028A8F8B1007C0295 /* KAAMUITests.swift */; };
+		F90B2CD328A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F90B2CC328A8F8B1007C0295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F90B2CA928A8F8AE007C0295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90B2CB028A8F8AE007C0295;
+			remoteInfo = KAAM;
+		};
+		F90B2CCD28A8F8B1007C0295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F90B2CA928A8F8AE007C0295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90B2CB028A8F8AE007C0295;
+			remoteInfo = KAAM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F90B2CB128A8F8AE007C0295 /* KAAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMApp.swift; sourceTree = "<group>"; };
+		F90B2CB628A8F8AE007C0295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F90B2CB828A8F8B1007C0295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F90B2CBB28A8F8B1007C0295 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F90B2CBD28A8F8B1007C0295 /* KAAM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KAAM.entitlements; sourceTree = "<group>"; };
+		F90B2CC228A8F8B1007C0295 /* KAAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90B2CC628A8F8B1007C0295 /* KAAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMTests.swift; sourceTree = "<group>"; };
+		F90B2CCC28A8F8B1007C0295 /* KAAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAAMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90B2CD028A8F8B1007C0295 /* KAAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMUITests.swift; sourceTree = "<group>"; };
+		F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90B2CAE28A8F8AE007C0295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90B2CBF28A8F8B1007C0295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90B2CC928A8F8B1007C0295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90B2CA828A8F8AE007C0295 = {
+			isa = PBXGroup;
+			children = (
+				F90B2CB328A8F8AE007C0295 /* KAAM */,
+				F90B2CC528A8F8B1007C0295 /* KAAMTests */,
+				F90B2CCF28A8F8B1007C0295 /* KAAMUITests */,
+				F90B2CB228A8F8AE007C0295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90B2CB228A8F8AE007C0295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90B2CB128A8F8AE007C0295 /* KAAM.app */,
+				F90B2CC228A8F8B1007C0295 /* KAAMTests.xctest */,
+				F90B2CCC28A8F8B1007C0295 /* KAAMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90B2CB328A8F8AE007C0295 /* KAAM */ = {
+			isa = PBXGroup;
+			children = (
+				F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */,
+				F90B2CB628A8F8AE007C0295 /* ContentView.swift */,
+				F90B2CB828A8F8B1007C0295 /* Assets.xcassets */,
+				F90B2CBD28A8F8B1007C0295 /* KAAM.entitlements */,
+				F90B2CBA28A8F8B1007C0295 /* Preview Content */,
+			);
+			path = KAAM;
+			sourceTree = "<group>";
+		};
+		F90B2CBA28A8F8B1007C0295 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F90B2CBB28A8F8B1007C0295 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F90B2CC528A8F8B1007C0295 /* KAAMTests */ = {
+			isa = PBXGroup;
+			children = (
+				F90B2CC628A8F8B1007C0295 /* KAAMTests.swift */,
+			);
+			path = KAAMTests;
+			sourceTree = "<group>";
+		};
+		F90B2CCF28A8F8B1007C0295 /* KAAMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F90B2CD028A8F8B1007C0295 /* KAAMUITests.swift */,
+				F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */,
+			);
+			path = KAAMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90B2CB028A8F8AE007C0295 /* KAAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90B2CD628A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAM" */;
+			buildPhases = (
+				F90B2CAD28A8F8AE007C0295 /* Sources */,
+				F90B2CAE28A8F8AE007C0295 /* Frameworks */,
+				F90B2CAF28A8F8AE007C0295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAAM;
+			productName = KAAM;
+			productReference = F90B2CB128A8F8AE007C0295 /* KAAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F90B2CC128A8F8B1007C0295 /* KAAMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90B2CD928A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAMTests" */;
+			buildPhases = (
+				F90B2CBE28A8F8B1007C0295 /* Sources */,
+				F90B2CBF28A8F8B1007C0295 /* Frameworks */,
+				F90B2CC028A8F8B1007C0295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F90B2CC428A8F8B1007C0295 /* PBXTargetDependency */,
+			);
+			name = KAAMTests;
+			productName = KAAMTests;
+			productReference = F90B2CC228A8F8B1007C0295 /* KAAMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F90B2CCB28A8F8B1007C0295 /* KAAMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90B2CDC28A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAMUITests" */;
+			buildPhases = (
+				F90B2CC828A8F8B1007C0295 /* Sources */,
+				F90B2CC928A8F8B1007C0295 /* Frameworks */,
+				F90B2CCA28A8F8B1007C0295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F90B2CCE28A8F8B1007C0295 /* PBXTargetDependency */,
+			);
+			name = KAAMUITests;
+			productName = KAAMUITests;
+			productReference = F90B2CCC28A8F8B1007C0295 /* KAAMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90B2CA928A8F8AE007C0295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F90B2CB028A8F8AE007C0295 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F90B2CC128A8F8B1007C0295 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F90B2CB028A8F8AE007C0295;
+					};
+					F90B2CCB28A8F8B1007C0295 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F90B2CB028A8F8AE007C0295;
+					};
+				};
+			};
+			buildConfigurationList = F90B2CAC28A8F8AE007C0295 /* Build configuration list for PBXProject "KAAM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F90B2CA828A8F8AE007C0295;
+			productRefGroup = F90B2CB228A8F8AE007C0295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90B2CB028A8F8AE007C0295 /* KAAM */,
+				F90B2CC128A8F8B1007C0295 /* KAAMTests */,
+				F90B2CCB28A8F8B1007C0295 /* KAAMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90B2CAF28A8F8AE007C0295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90B2CBC28A8F8B1007C0295 /* Preview Assets.xcassets in Resources */,
+				F90B2CB928A8F8B1007C0295 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90B2CC028A8F8B1007C0295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90B2CCA28A8F8B1007C0295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90B2CAD28A8F8AE007C0295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90B2CB728A8F8AE007C0295 /* ContentView.swift in Sources */,
+				F90B2CB528A8F8AE007C0295 /* KAAMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90B2CBE28A8F8B1007C0295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90B2CC728A8F8B1007C0295 /* KAAMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90B2CC828A8F8B1007C0295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90B2CD328A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift in Sources */,
+				F90B2CD128A8F8B1007C0295 /* KAAMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F90B2CC428A8F8B1007C0295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90B2CB028A8F8AE007C0295 /* KAAM */;
+			targetProxy = F90B2CC328A8F8B1007C0295 /* PBXContainerItemProxy */;
+		};
+		F90B2CCE28A8F8B1007C0295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90B2CB028A8F8AE007C0295 /* KAAM */;
+			targetProxy = F90B2CCD28A8F8B1007C0295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F90B2CD428A8F8B1007C0295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F90B2CD528A8F8B1007C0295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F90B2CD728A8F8B1007C0295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KAAM/KAAM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KAAM/Preview Content\"";
+				DEVELOPMENT_TEAM = ABL4JWM3PY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkgka.KAAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F90B2CD828A8F8B1007C0295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KAAM/KAAM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KAAM/Preview Content\"";
+				DEVELOPMENT_TEAM = ABL4JWM3PY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkgka.KAAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F90B2CDA28A8F8B1007C0295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABL4JWM3PY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkgka.KAAMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAAM.app/Contents/MacOS/KAAM";
+			};
+			name = Debug;
+		};
+		F90B2CDB28A8F8B1007C0295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABL4JWM3PY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkgka.KAAMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAAM.app/Contents/MacOS/KAAM";
+			};
+			name = Release;
+		};
+		F90B2CDD28A8F8B1007C0295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABL4JWM3PY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkgka.KAAMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KAAM;
+			};
+			name = Debug;
+		};
+		F90B2CDE28A8F8B1007C0295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABL4JWM3PY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkgka.KAAMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KAAM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90B2CAC28A8F8AE007C0295 /* Build configuration list for PBXProject "KAAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90B2CD428A8F8B1007C0295 /* Debug */,
+				F90B2CD528A8F8B1007C0295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90B2CD628A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90B2CD728A8F8B1007C0295 /* Debug */,
+				F90B2CD828A8F8B1007C0295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90B2CD928A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90B2CDA28A8F8B1007C0295 /* Debug */,
+				F90B2CDB28A8F8B1007C0295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90B2CDC28A8F8B1007C0295 /* Build configuration list for PBXNativeTarget "KAAMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90B2CDD28A8F8B1007C0295 /* Debug */,
+				F90B2CDE28A8F8B1007C0295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90B2CA928A8F8AE007C0295 /* Project object */;
+}
