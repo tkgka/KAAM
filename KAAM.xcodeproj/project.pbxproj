@@ -14,6 +14,8 @@
 		F90B2CC728A8F8B1007C0295 /* KAAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CC628A8F8B1007C0295 /* KAAMTests.swift */; };
 		F90B2CD128A8F8B1007C0295 /* KAAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CD028A8F8B1007C0295 /* KAAMUITests.swift */; };
 		F90B2CD328A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */; };
+		F90B2CE028A8F950007C0295 /* CGEventExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */; };
+		F90B2CE228A8F9BE007C0295 /* KeyInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		F90B2CCC28A8F8B1007C0295 /* KAAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAAMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90B2CD028A8F8B1007C0295 /* KAAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMUITests.swift; sourceTree = "<group>"; };
 		F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGEventExtension.swift; sourceTree = "<group>"; };
+		F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */,
+				F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */,
+				F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */,
 				F90B2CB628A8F8AE007C0295 /* ContentView.swift */,
 				F90B2CB828A8F8B1007C0295 /* Assets.xcassets */,
 				F90B2CBD28A8F8B1007C0295 /* KAAM.entitlements */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90B2CE228A8F9BE007C0295 /* KeyInputController.swift in Sources */,
+				F90B2CE028A8F950007C0295 /* CGEventExtension.swift in Sources */,
 				F90B2CB728A8F8AE007C0295 /* ContentView.swift in Sources */,
 				F90B2CB528A8F8AE007C0295 /* KAAMApp.swift in Sources */,
 			);
