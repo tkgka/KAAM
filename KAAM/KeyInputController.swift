@@ -1,5 +1,6 @@
 import Cocoa
 import SwiftUI
+
 import ArrayFlags
 
 class Wrapper {
@@ -19,8 +20,12 @@ class Wrapper {
 }
 
 func handle(event: NSEvent, cgEvent: CGEvent, wrapper: Wrapper, proxy: CGEventTapProxy) -> CGEvent? {
+    let ScreenWidth = NSScreen.main!.frame.width
+    let ScreenHeight = NSScreen.main!.frame.height
     if(event.type == .keyDown){
         print(GetArrayFlags(Val: event.modifierFlags.rawValue))
+        CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: ScreenWidth/2, y: ScreenHeight/2), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
+        return nil
     }
     return cgEvent
 }
