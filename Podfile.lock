@@ -1,16 +1,20 @@
 PODS:
+  - AlertPopup (1.0.4)
   - ArrayFlags (1.0.4)
 
 DEPENDENCIES:
+  - AlertPopup (~> 1.0.2)
   - ArrayFlags
 
 SPEC REPOS:
   trunk:
+    - AlertPopup
     - ArrayFlags
 
 SPEC CHECKSUMS:
+  AlertPopup: 74ad05d7ba9335f63148bf0916b8e82e58c98357
   ArrayFlags: 1f034078764945e1c67d976d1837148ab4bcf145
 
-PODFILE CHECKSUM: ace6397822eb40331b40ed0dbf5d8d20ef684843
+PODFILE CHECKSUM: d20375690f0cce14c32ce89fee029bbe2d473599
 
 COCOAPODS: 1.11.3

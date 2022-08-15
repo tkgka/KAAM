@@ -111,7 +111,6 @@
 				C66223A714F0931FC52F8F26 /* Pods-KAAMTests.debug.xcconfig */,
 				26D2FE35AFA3B4B9C67C6A89 /* Pods-KAAMTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

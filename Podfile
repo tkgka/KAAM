@@ -6,6 +6,7 @@ target 'KAAM' do
   use_frameworks!
 
   # Pods for KAAM
+    pod "AlertPopup", "~> 1.0.2"
     pod "ArrayFlags"
 
   target 'KAAMTests' do
