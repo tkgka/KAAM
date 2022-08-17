@@ -19,6 +19,7 @@
 		F90B2CD328A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */; };
 		F90B2CE028A8F950007C0295 /* CGEventExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */; };
 		F90B2CE228A8F9BE007C0295 /* KeyInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */; };
+		F93BCC9928AA84BE00CADE31 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93BCC9828AA84BE00CADE31 /* StatusBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		F90B2CD228A8F8B1007C0295 /* KAAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGEventExtension.swift; sourceTree = "<group>"; };
 		F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputController.swift; sourceTree = "<group>"; };
+		F93BCC9728AA83E400CADE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F93BCC9828AA84BE00CADE31 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		FCC4FA1D50527D52ED208EF3 /* Pods-KAAM-KAAMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAAM-KAAMUITests.release.xcconfig"; path = "Target Support Files/Pods-KAAM-KAAMUITests/Pods-KAAM-KAAMUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,8 +142,10 @@
 		F90B2CB328A8F8AE007C0295 /* KAAM */ = {
 			isa = PBXGroup;
 			children = (
+				F93BCC9728AA83E400CADE31 /* Info.plist */,
 				F90B2CB428A8F8AE007C0295 /* KAAMApp.swift */,
 				F90B2CDF28A8F950007C0295 /* CGEventExtension.swift */,
+				F93BCC9828AA84BE00CADE31 /* StatusBarController.swift */,
 				F90B2CE128A8F9BD007C0295 /* KeyInputController.swift */,
 				F90B2CB628A8F8AE007C0295 /* ContentView.swift */,
 				F90B2CB828A8F8B1007C0295 /* Assets.xcassets */,
@@ -416,6 +421,7 @@
 				F90B2CE228A8F9BE007C0295 /* KeyInputController.swift in Sources */,
 				F90B2CE028A8F950007C0295 /* CGEventExtension.swift in Sources */,
 				F90B2CB728A8F8AE007C0295 /* ContentView.swift in Sources */,
+				F93BCC9928AA84BE00CADE31 /* StatusBarController.swift in Sources */,
 				F90B2CB528A8F8AE007C0295 /* KAAMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -557,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -581,6 +587,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KAAM/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -609,6 +616,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KAAM/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

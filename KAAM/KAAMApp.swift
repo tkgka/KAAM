@@ -17,18 +17,28 @@ struct KAAMApp: App {
     }
 }
 
+var statusBar: StatusBarController?
 
 class AppDelegate: NSObject, NSApplicationDelegate{
     var state = Wrapper()
     var statusItem: NSStatusItem?
-    var popOver = NSPopover()
+    var popover = NSPopover.init()
+
     public func applicationDidFinishLaunching(_ notification: Notification) {
+        let contentView = ContentView()
+        setupMenuBar()
         if !AXIsProcessTrusted() {
             
         }
         createEventTap()
     }
     
+    private func setupMenuBar() {
+        let contentView = ContentView()
+        popover.contentSize = NSSize(width: 300, height: 360)
+        popover.contentViewController = NSHostingController(rootView: contentView)
+        statusBar = StatusBarController.init(popover)
+    }
     
     func createEventTap() {
         let eventTap = CGEvent.tapCreate(
