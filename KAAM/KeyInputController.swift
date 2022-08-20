@@ -22,19 +22,22 @@ class Wrapper {
 
 var MouseMode:Bool = false
 weak var AlertWindow:NSWindow? = nil
+var CurserDown:Bool = false
 
 func handle(event: NSEvent, cgEvent: CGEvent, wrapper: Wrapper, proxy: CGEventTapProxy) -> CGEvent? {
     
     let ScreenWidth = NSScreen.main!.frame.width
     let ScreenHeight = NSScreen.main!.frame.height
     var curserSpeed:CGFloat = 10
+    
+    
     if(event.type == .keyDown){
         if (GetDictFlags(Val: event.modifierFlags.rawValue)["􀆔"]! != 0 && event.keyCode == 0x05){ // g
             MouseMode.toggle()
             if AlertWindow != nil{ closeWindow(window: AlertWindow!) } // remove Alert before Timer elapse
             AlertWindow = ShowSystemAlert(ImageName: "exclamationmark.circle", AlertText: "MouseMode: \(MouseMode)", Timer: 1.5) // show Alert
             
-            KAAM.statusBar?.updateStatusItemWith(Data: MouseMode == true ? "Mouse Mode " : "Keyboard Mode")
+            KAAM.statusBar?.updateStatusItemWith(Data: MouseMode == true ? "| Mouse Mode | " : "| Keyboard Mode |")
             
             return nil
         }
@@ -43,22 +46,24 @@ func handle(event: NSEvent, cgEvent: CGEvent, wrapper: Wrapper, proxy: CGEventTa
                 curserSpeed = 70
             }
             if event.keyCode == 0x03{ //f
+                CurserDown = true
                 CGEvent(mouseEventSource: nil, mouseType: CGEventType.leftMouseDown, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
             }
             else if event.keyCode == 0x05{ //g
+                CurserDown = true
                 CGEvent(mouseEventSource: nil, mouseType: CGEventType.rightMouseDown, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y), mouseButton: CGMouseButton.right)?.post(tap: CGEventTapLocation.cghidEventTap)
             }
             else if event.keyCode == 0x26{ //􀄦, j
-                CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x - curserSpeed, y: cgEvent.location.y), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
+                CGEvent(mouseEventSource: nil, mouseType: CurserDown == true ? CGEventType.leftMouseDragged : CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x - curserSpeed, y: cgEvent.location.y), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
             }
             else if event.keyCode == 0x25{ //􀄧, l
-                CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x + curserSpeed, y: cgEvent.location.y), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
+                CGEvent(mouseEventSource: nil, mouseType: CurserDown == true ? CGEventType.leftMouseDragged : CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x + curserSpeed, y: cgEvent.location.y), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
             }
             else if event.keyCode == 0x28{ //􀄥, k
-                CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y + curserSpeed), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
+                CGEvent(mouseEventSource: nil, mouseType: CurserDown == true ? CGEventType.leftMouseDragged : CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y + curserSpeed), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
             }
             else if event.keyCode == 0x22{ //􀄤, i
-                CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y - curserSpeed), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
+                CGEvent(mouseEventSource: nil, mouseType: CurserDown == true ? CGEventType.leftMouseDragged : CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y - curserSpeed), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
             }
             else if event.keyCode == 0x29 || event.keyCode == 0x20{ // ;, i
                 CGEvent(scrollWheelEvent2Source: nil, units: CGScrollEventUnit.line, wheelCount: 2, wheel1: Int32(30), wheel2: Int32(0), wheel3: Int32(0))?.post(tap: CGEventTapLocation.cghidEventTap)
@@ -74,9 +79,11 @@ func handle(event: NSEvent, cgEvent: CGEvent, wrapper: Wrapper, proxy: CGEventTa
     }
     else if (event.type == .keyUp){
         if MouseMode == true && event.keyCode == 0x03{ //f
+            CurserDown = false
             CGEvent(mouseEventSource: nil, mouseType: CGEventType.leftMouseUp, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y), mouseButton: CGMouseButton.left)?.post(tap: CGEventTapLocation.cghidEventTap)
         }
         else if MouseMode == true && event.keyCode == 0x05{ //g
+            CurserDown = false
             CGEvent(mouseEventSource: nil, mouseType: CGEventType.rightMouseUp, mouseCursorPosition: CGPoint(x: cgEvent.location.x, y: cgEvent.location.y), mouseButton: CGMouseButton.right)?.post(tap: CGEventTapLocation.cghidEventTap)
         }
     }

@@ -9,7 +9,7 @@ import AppKit
 
 
 
-var TitleText = "1123"
+var TitleText = "| Keyboard Mode |"
 
 
 class StatusBarController {
@@ -20,7 +20,7 @@ class StatusBarController {
     init(_ popover: NSPopover) {
         self.popover = popover
         statusBar = NSStatusBar.init()
-        statusItem = statusBar.statusItem(withLength: 28.0)
+        statusItem = statusBar.statusItem(withLength: CGFloat(TitleText.count * 7))
         
         if let statusBarButton = statusItem.button {
             statusBarButton.title = TitleText

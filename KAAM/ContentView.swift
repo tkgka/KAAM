@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .frame(width: 200, height: 200, alignment: .center)
+        VStack{
+            Text("Hello, world!")
+            Button("Quit", action: {
+                NSApplication.shared.terminate(self)
+            })
+        }.frame(width: 200, height: 200, alignment: .center)
     }
 }
 

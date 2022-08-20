@@ -11,7 +11,7 @@ import SwiftUI
 struct KAAMApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
-        WindowGroup {
+        Settings {
             ContentView()
         }
     }
@@ -45,7 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate{
             tap: .cgSessionEventTap,
             place: .headInsertEventTap,
             options: .defaultTap,
-            eventsOfInterest: [.keyDown, .keyUp, .flagsChanged],
+            eventsOfInterest: [.keyDown, .keyUp, .flagsChanged, .leftMouseDragged, .rightMouseDragged],
             callback: { proxy, _, cgEvent, ctx in
                 if let event = NSEvent(cgEvent: cgEvent),
                    let wrapper = ctx?.load(as: Wrapper.self) {
